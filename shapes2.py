@@ -1,0 +1,45 @@
+from turtle import *
+import shapes
+def move_pen1():
+    up()
+    backward(60)
+    left(100)
+    down()
+def move_pen2():
+    up()
+    forward(25)
+    right(10)
+    down()
+def move_pen3():
+    up()
+    forward(100)
+    left(180)
+    down()
+def move_pen4():
+    up()
+    backward(90)
+    left(50)
+    down()
+def move_pen5():
+    up()
+    backward(50)
+    left(10)
+    down()
+def move_pen6():
+    up()
+    backward(150)
+    left(10)
+    down()
+shapes.triangle()
+move_pen1()
+shapes.square()
+move_pen2()
+shapes.pentagon()
+move_pen3()
+shapes.hexagon()
+move_pen4()
+shapes.octagon()
+move_pen5()
+shapes.star()
+move_pen6()
+shapes.cir()
